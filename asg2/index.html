@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to my interactive page! Have fun! </title>
+    <link rel="stylesheet" type="text/css" href="../Homepage/style.css">
+  </head>
+  <body>
+    <script type="text/javascript" src="asg2.js"></script>
+    <h1 class="header">Welcome to my interactive page!</h1>
+<!--first button for the changing style-->
+    <p id= "button1" style= "text-align:center;">
+        <button onclick="change()" id = "change"> change styles</button>
+    </p>
+
+<!-- Second button to win a prize-->
+    <p id= "button2" style= "text-align:center;">
+        <button onclick="randPrize()" id = "prize"> click to win a prize</button>
+
+    </p>
+    <div id="prize">
+
+    </div>
+
+    <p id ="p1" onclick="swapT()">Hello Hello, Can you hear me?</p>
+    <p id ="p2" onclick="swapT()">Hello Hello, Can you see me?</p>
+
+    <div style="justify-items:center">
+
+
+    <img src="DSC_0409.JPG" alt="little house" width= 400px height = 300px id ="img1" onclick="swapImg()">
+    <img src="DSC_0415.JPG" alt="another little house" width= 400px height = 300px id = "img2" onclick ="swapImg()">
+
+  </div>
+  </body>
+</html>
