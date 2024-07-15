@@ -1,0 +1,28 @@
+html {
+  background: url("butterfly.jpg") no-repeat center fixed;
+  background-size: cover;
+  opacity: 0.8
+}
+
+
+
+h1{
+  font-family: "Sofia", sans-serif;
+  font-size: 48px;
+
+}
+
+#fortuneC{
+  margin-top: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: white;
+  font-size: 30px;
+  font-family: "Lucida Handwriting";
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+}
+
+img{
+  border-radius: 10%;
+}

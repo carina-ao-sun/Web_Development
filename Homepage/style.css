@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Myfont';
+   src: url('Gemini Moon.otf');
+}
+
+.col-3{
+  width:50%;
+  text-align: right;
+  padding-right: 5%;
+  font-weight: bold;
+}
+
+.row{
+  margin:1%;
+}
+
+.col-9{
+  width:50%；
+
+}
+html,
+body {
+  height: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  background-color: #d5f4e6;
+}
+
+h1{
+  font-family: 'Myfont';
+  caret-color: white;
+  font-size: 40px;
+}
+div,
+article
+p{
+  text-align: center;
+  font-family: 'Lucida Sans Unicode';
+}
+
+.form_container{
+
+  border: 10px solid white;
+  margin:5%;
+  padding:3%;
+  background-image:url(https://64.media.tumblr.com/8d12ffc4cf92cc55ce12e7cf0f2da7af/2b48356d662bc7c6-29/s500x750/f0197c0ab7a617e094018c7a1e87ce07af99cabf.gifv);
+  background-size: cover;
+  opacity:0.8;
+  background-blend-mode:color-burn;
+}
+
+
+form{
+  text-align: left;
+}
+
+#img1,
+#img2{
+  border-radius: 25px;
+}
+
+
+
+h3{
+  background-color: #d5f4e6;
+}
+
+
+.panel-container {
+  background-image: url(https://i.pinimg.com/originals/ca/5a/ee/ca5aee534774d6b4ef69168c1c75a9d1.gif);
+  background-repeat: round;
+  flex-wrap: wrap;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  border: 5px solid #FF9900;
+  height: 30%auto;
+  padding: 5px;
+  justify-content:space-around;
+
+  align-items: center;
+
+}
+
+.panel-left {
+  margin:3%;
+  flex: 2 2 auto; /*  manualresize */
+  padding: 10px;
+  xmin-width: 200px;
+  xwhite-space: nowrap;
+  background: #fefbd8;
+  color: black;
+
+}
+
+
+.panel-right {
+  margin: 3%;
+  padding: 10px;
+  xwidth: 100%;
+  xmin-width: 300px;
+  background: #80ced6;
+  color: white;
+  justify-content: center;
+}
+
+
+/* Header/logo Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #618685;
+
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color:#fefbd8 ;
+  justify-content:space-around;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color:black;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover (hover effect- nice effect for navigation*/
+.navbar a:hover {
+  background-color: #618685;
+  color: black;
+}
+
+#comment{
+  width: 40%;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+
+/* Footer */
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: #618685;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px; 
+
+}
+
+/* Responsive layout using media query - when the screen is less than 700px wide, make the two columns or all content stack on top of each other instead of next to each other */
+
+@media (max-width: 700px) {
+  .row, .navbar {
+    flex-direction: column;
+  }
+
+  .col-3{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+
+  }
+
+.checkbox{
+    flex-direction:row;
+  }
+
+  #comment{
+    width:100%;
+    text-align: left;
+    justify-content: center;
+  }
+}
+
+#p1,
+#p2{
+  font-size: 26px;
+  font-style: oblique;
+  background-color: "black";
+}
