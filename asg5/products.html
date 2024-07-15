@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Products</title>
+    <link rel="stylesheet" type="text/css" href="products.css">
+
+  </head>
+  <body>
+
+<div class ="header">
+        <h1 style align= "center">Order</h1>
+</div>
+
+
+    <div class="navbar">
+      <a href="../Homepage/index.html">Home</a>
+      <a href="../Homepage/index.html">Assignment #1</a>
+      <a href="../asg2/index.html">Assignment #2</a>
+      <a href="../asg3/index.html">Assignment #3</a>
+      <a href="../asg4/index.html">Assignment #4</a>
+      <a href="index.html">Assignment #5</a>
+      <a href="../Homepage/contact.html"> Contact </a>
+    </div>
+
+
+<div class="contain">
+  <div class="flex-container">
+    <div class = "left">
+      <img id ="roses" name = "roses" src="roses.jpg" width = 80%>
+    </div>
+    <div class= "right">
+      <h2>Roses</h2>
+      <p>
+        Price:
+         <input type=number id="price_rose" readonly value=50>
+         <br>
+         Number:
+          <input type=number id="number_rose">
+       <br>
+        Subtotal:<input type=number readonly id="subtotal_rose"></p>
+    </div>
+
+  </div>
+
+  <div class="flex-container">
+    <div class = "left">
+      <img id ="orchid" name = "orchid" src="orchid.jpg" width = 80%>
+    </div>
+    <div class= "right">
+      <h2>Orchid</h2>
+      <p>
+        Price:
+         <input type=number id="price_orchid" readonly value=35>
+         <br>
+         Number:
+          <input type=number id="number_orchid">
+       <br>
+        Subtotal:<input type=number readonly id="subtotal_orchid"></p>
+    </div>
+  </div>
+
+  <div class="flex-container">
+    <div class = "left">
+      <img id ="peony" name = "peony" src="peony.jpg" width = 80%>
+    </div>
+    <div class= "right">
+      <h2>Peony</h2>
+      <p>
+        Price:
+         <input type=number id="price_peony" readonly value=60>
+         <br>
+         Number:
+          <input type=number id="number_peony">
+       <br>
+        Subtotal:<input type=number readonly id="subtotal_peony"></p>
+    </div>
+  </div>
+
+  <div class="flex-container">
+    <div class = "left">
+      <img id ="Birthday" name = "Birthday" src="Birthday.jpg" width = 80%>
+    </div>
+    <div class= "right">
+      <h2>Birthday</h2>
+      <p>
+        Price:
+         <input type=number id="price_Birthday" readonly value=85>
+         <br>
+         Number:
+          <input type=number id="number_Birthday">
+       <br>
+        Subtotal:<input type=number readonly id="subtotal_Birthday"></p>
+    </div>
+  </div>
+
+  <div class="flex-container">
+    <div class = "left">
+      <img id ="basket" name = "basket" src="basket.jpg" width = 80%>
+    </div>
+    <div class= "right">
+      <h2>Basket</h2>
+      <p>
+        Price:
+         <input type=number id="price_basket" readonly value=80>
+         <br>
+         Number:
+          <input type=number id="number_basket">
+       <br>
+        Subtotal:<input type=number readonly id="subtotal_basket"></p>
+    </div>
+  </div>
+
+<br>
+<br>
+
+<!--receipt-->
+<div class="cart">
+  <img id ="cart" name = "cart" src="cart.png" width = 10%>
+  <br>
+<p>
+  <input type=number readonly id="grand_total" name = "grand_total"></p>
+</div>
+<p> <h2 id="info">Guest Information</h2> </p>
+
+<form action="#" >
+  First name: <input type="text" name="firstName" ><br>
+  <br>
+  Last name: <input type="text" name="lastName" ><br><br>
+
+  Zip: <input type=number name=zip><p>
+  Email: <input type=email name=email><p>
+  Address:<input type = address name=address><p>
+
+  Select Shipping Method: <select name=shipping><p>
+
+      <option value="shipping" selected>Shipping($6)</option>
+      <option value="will">Will-Call</option>
+
+      </select>
+      <p>
+
+
+  Credit card: AMEX<input name="creditCard" type="radio" value="Amex" checked>
+              Visa<input name="creditCard" type="radio" value="Visa" >
+              Mastercard<input name="creditCard" type="radio" value="Mastercard" ><p>
+  Card Number: <input type=number name=cardnumber><p>
+
+<hr color="#F00" >
+
+<input type="submit" value="checkout">
+<input type="reset" value="Reset">
+</form>
+<p id="demo">See your receipt here</p>
+
+
+<br><br>
+<div>
+
+
+
+  <div class="footer" style="align:bottom">
+
+    Keep Tracking fore more! <br>
+    &copy; Carina Ao Sun - Updated 2022
+</div>
+
+
+  </body>
+  <script src ="asg4cart.js"></script>
+</html>
